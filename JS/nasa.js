@@ -1,7 +1,7 @@
 
      
 function retrieveFromNasa(){
-    let url = "https://api.nasa.gov/planetary/apod?api_key=qvVStNIopTSTIQ5NX5beqnSylMtHljMzaHfbqNZc";
+    let url = "https://api.nasa.gov/planetary/apod?api_key= INSERtKEY";
     let request = new XMLHttpRequest();
     request.open("GET", url);
 

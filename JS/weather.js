@@ -40,7 +40,7 @@ function calculateDayOfWeek(e) {
 
 function fiveDayForeCast() {
 
-    let url = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/315909? +INSERTKey+ &language=en-us&metric=true";
+    let url = "http://dataservice.accuweather.com/forecasts/v1/daily/5day/315909? INSERT KEY &language=en-us&metric=true";
     let request = new XMLHttpRequest();
 
     request.open("GET", url);

@@ -2,7 +2,7 @@
 function retrieveNews(){
     let url = 'https://api.currentsapi.services/v1/search?' +
     'keywords=youtube&language=en&' + 
-    'EnterKey';
+    'InsertKey';
     let request = new XMLHttpRequest();
     request.open("GET", url);
 
@@ -20,7 +20,7 @@ function retrieveNews(){
 
         /*}*/
 
-    };
+    }; 
 
     request.send();
 
